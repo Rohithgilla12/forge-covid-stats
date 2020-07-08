@@ -1,0 +1,12 @@
+modules:
+  macro:
+    - key: covid-stats-hello-world
+      function: main
+      title: covid_stats
+      description: Inserts Covid stats!
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: "ari:cloud:ecosystem::app/c3fc8901-f00d-4b98-b92b-46026ea76e6d"
+  name: covid_stats
